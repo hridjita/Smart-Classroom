@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadAttendance()">
+
+<header>
+<h2>Attendance</h2>
+</header>
+
+<div class="container">
+
+<div class="card">
+<input id="attName" placeholder="Student Name">
+<input id="status" placeholder="Present / Absent">
+<button onclick="markAttendance()">Mark</button>
+</div>
+
+<div class="card">
+<div id="attList"></div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

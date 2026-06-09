@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadStudents()">
+
+<header>
+<h2>Students</h2>
+<nav>
+<a href="index.html">Dashboard</a>
+<a href="students.html">Students</a>
+<a href="attendance.html">Attendance</a>
+</nav>
+</header>
+
+<div class="container">
+
+<div class="card">
+<input id="name" placeholder="Student Name">
+<button onclick="addStudent()">Add</button>
+</div>
+
+<div class="card">
+<ul id="list"></ul>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
